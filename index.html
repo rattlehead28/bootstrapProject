@@ -4,16 +4,17 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>bootstrapProject</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="script.js"></script>
 </head>
 
 <body>
-	 
-    <nav class="navbar navbar-inverse" style="margin-bottom: 0px">
+	  
+    <nav class="navbar navbar-inverse navbar-fixed-top" style="margin-bottom:0px">
        
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -24,7 +25,7 @@
                 <a class="navbar-brand" href="#"><img class="logo" src="images/logo.jpg" height="40px" width="70px"></a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
-                <div class="col-md-5 col-md-offset-5 col-sm-8 ">
+                <div class="col-md-5 col-md-offset-4 col-sm-8">
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="#">Home</a></li>
                         <li><a href="#">Portfolio</a></li>
@@ -39,7 +40,7 @@
             </div>
         
     </nav>
-    <div class="container-fluid">
+   <div class="container-fluid">
     <!--Carousel-->
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
@@ -80,11 +81,12 @@
         <div class="serviceLabel"><span style="color:white"><b>Our Services</b></span></div>
     </div>
     <!-- Services -->
-    
-        <div class='services' align="center">
+    <div class="services">
+         <center>
             <div class='row'>
-                <div class='col-md-3 col-sm-6'>
-                    <div class="card" style="width: 20rem;">
+               
+                <div class='col-md-3 col-xs-6'>
+                    <div class="card cardWidth">
                         <img class="card-img-top" src="images/laptop.png" alt="Card image cap" height='100'>
                         <div class="card-block">
                             <h4 class="card-title">Web Design</h4>
@@ -92,8 +94,8 @@
                         </div>
                     </div>
                 </div>
-                <div class='col-md-3 col-sm-6'>
-                    <div class="card" style="width: 20rem;">
+                <div class='col-md-3 col-xs-6'>
+                    <div class="card cardWidth">
                         <img class="card-img-top" src="images/search.png" alt="Card image cap" height='100'>
                         <div class="card-block">
                             <h4 class="card-title">Search Optimization</h4>
@@ -101,8 +103,8 @@
                         </div>
                     </div>
                 </div>
-                <div class='col-md-3 col-sm-6'>
-                    <div class="card" style="width: 20rem;">
+                <div class='col-md-3 col-xs-6'>
+                    <div class="card cardWidth">
                         <img class="card-img-top" src="images/shop.png" alt="Card image cap" height='100'>
                         <div class="card-block">
                             <h4 class="card-title">Online Shop</h4>
@@ -110,15 +112,18 @@
                         </div>
                     </div>
                 </div>
-                <div class="card col-md-3 col-sm-6">
-                    <img class="card-img-top" src="images/social.png" alt="Card image cap" height='100'>
-                    <div class="card-block" style="width: 20rem;">
+                <div class="card col-md-3 col-xs-6">
+                    
+                    <div class="card-block cardWidth">
+                        <img class="card-img-top" src="images/social.png" alt="Card image cap" height='100'>
                         <h4 class="card-title">Social Media</h4>
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
                     </div>
                 </div>
+               
             </div>
-        </div>
+             </center></div>
+        
    
     <!-- Portfolio -->
     <div class="portfolio">
@@ -130,18 +135,18 @@
                 <button class="btn btn-default">More Works</button>
             </div>
         </div>-->
-        <div align="center">
+        <center>
         	<div class="row">
             <div class="col-md-4 col-sm-4">
-                <h4 style="color:orange"><b>Our Portfolio Awesome</b></h4>
+                <h4 class="headingColor"><b>Our Portfolio Awesome</b></h4>
             </div>
-            <div class="col-md-1 col-md-offset-6">
+            <div class="col-md-1 col-md-offset-6 col-xs-1 col-xs-offset-5">
                 <button class="btn btn-default" style="position:relative;right:20px">More Works</button>
             </div>
         </div>
             <div class='row'>
                 <div class='col-md-4 col-sm-4'>
-                    <div class="card" style="width: 20rem;">
+                    <div class="card cardWidth">
                         <img class="card-img-top img-thumbnail" src="images/port1.jpeg" alt="Card image cap" height="150" align="center">
                         <div class="card-block">
                             <h4 class="card-title">Web Design</h4>
@@ -150,7 +155,7 @@
                     </div>
                 </div>
                 <div class='col-md-4 col-sm-4'>
-                    <div class="card" style="width: 20rem;">
+                    <div class="card cardWidth">
                         <img class="card-img-top img-thumbnail" src="images/port2.jpeg" alt="Card image cap" height="150" align="center">
                         <div class="card-block">
                             <h4 class="card-title">Web Design</h4>
@@ -159,7 +164,7 @@
                     </div>
                 </div>
                 <div class='col-md-4 col-sm-4'>
-                    <div class="card" style="width: 20rem;">
+                    <div class="card cardWidth">
                         <img class="card-img-top img-thumbnail" src="images/port3.jpg" alt="Card image cap" height="150" align="center">
                         <div class="card-block">
                             <h4 class="card-title">Web Design</h4>
@@ -168,46 +173,47 @@
                     </div>
                 </div>
             </div>
+        </center>
         </div>
-    </div>
+   
     <!-- What we offer -->
     <div align="center">
         <h2 class="text-center" style="color:blue"><b>What We Offer</b></h2>
         <p style="text-align:center; margin-top: 20px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
        
             <div class="row">
-                <div class='col-md-3 col-sm-3'>
-                    <div class="card" style="width: 20rem;">
+                <div class='col-md-3 col-xs-6'>
+                    <div class="card cardWidth" style="height: 15rem">
                         <div class="card-block">
-                            <h4 class="card-title" style="color: blue"><b>Web Design</b></h4>
+                            <h4 class="card-title offerHeading"><b>Web Design</b></h4>
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             <div class='col-md-3 col-md-offset-6 col-sm-3 col-sm-offset-6'>
                             <button class="btn btn-default" style="background-color: blue;color: white">Details</button></div>
                         </div>
                     </div>
                 </div>
-                <div class='col-md-3 col-sm-3'>
-                    <div class="card" style="width: 20rem;">
+                <div class='col-md-3 col-xs-6' style="height: 20rem">
+                    <div class="card cardWidth">
                         <div class="card-block">
-                            <h4 class="card-title" style="color: blue"><b>Search Optimization</b></h4>
+                            <h4 class="card-title offerHeading"><b>Search Optimization</b></h4>
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         </div>
                     </div>
                 </div>
-                <div class='col-md-3 col-sm-3'>
-                    <div class="card" style="width: 20rem;">
+                <div class='col-md-3 col-xs-6' style="height: 20rem">
+                    <div class="card cardWidth">
                         <div class="card-block">
-                            <h4 class="card-title" style="color: blue"><b>Online Shop</b></h4>
+                            <h4 class="card-title offerHeading"><b>Online Shop</b></h4>
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             <div class='col-md-3 col-md-offset-6 col-sm-3 col-sm-offset-6'>
                             <button class="btn btn-default" style="background-color: blue;color: white">Details</button></div>
                         </div>
                     </div>
                 </div>
-                <div class='col-md-3 col-sm-3'>
-                    <div class="card" style="width: 20rem;">
+                <div class='col-md-3 col-xs-6' style="height: 20rem">
+                    <div class="card cardWidth">
                         <div class="card-block">
-                            <h4 class="card-title" style="color: blue"><b>Social Media</b></h4>
+                            <h4 class="card-title offerHeading"><b>Social Media</b></h4>
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         </div>
                     </div>
@@ -217,84 +223,87 @@
     </div>
     <hr/>
     <!-- Testimonials-->
-    <div>
-        <h2 class="text-center" style="color:blue"><b>Testimonials</b></h2>
-        <p style="text-align: center;color:#696969;font-size: 20px">"Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+   <div align="center">
+        <h2 class="text-center offerHeading"><b>Testimonials</b></h2>
+        <p class="testimonialQuote">"Lorem ipsum dolor sit amet, consectetur adipiscing elit,
             <br> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
-        <p style="margin-top: 50px;color:orange; text-align: center; font-size: 15px" id="companyPosition"></p>
+        <p class="companyPosition">John Doe / CEO of LoremIpsum</p>
         <div class='row'>
-            <div style="margin-top: 20px">
-                <div class='col-md-3 col-md-offset-5 col-sm-4 col-sm-offset-4 col-xs-12 col-xs-offset-2'>
-                    <img class="img-rounded" src="images/usr1.png" id="usr1" height='70px' width='70px'>
-                    <img class="img-rounded" src="images/usr2.png" id="usr2" height='70px' width='70px'>
-                    <img class="img-rounded" src="images/usr3.png" id="usr3" height='70px' width='70px'>
+            
+                <div class='col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4 col-xs-10 col-xs-offset-1'>
+                    <div style="margin-top: 20px">
+                    
+                    <img class="img-rounded testimonialImage" src="images/usr2.png" id="usr2">
+                    <img class="img-rounded testimonialImage defaultImageCeo" src="images/usr1.png" id="usr1" >
+                    <img class="img-rounded testimonialImage" src="images/usr3.png" id="usr3">
                 </div>
             </div>
         </div>
     </div>
     </div>
+   
     <!-- FOOTER -->
-    <div class='page-footer' style="background-color:#696969;margin-top: 40px ">
+    <div class='page-footer pageFooter'>
         <div style="padding:20px">
             <div class="row">
-                <div class='col-md-3 col-sm-6'>
-                    <div class="card" style="width: 20rem;">
+                <div class='col-md-3 col-xs-6'>
+                    <div class="card cardWidth">
                         <div class="card-block">
                             <h4 class="card-title" style="color: orange"><b>BIRD FEEDS</b></h4>
-                            <p class="card-text" style="color:white">Check out this great theme item</p>
+                            <p class="card-text footerText">Check out this great theme item</p>
                             <a href='http://tadfghh.com'>http://tadfghh.com</a>
-                            <p class="card-text" style="color:white">2 weeks ago</p>
+                            <p class="card-text footerText">2 weeks ago</p>
                             <hr/>
-                            <p class="card-text" style="color:white">Check out this great theme item</p>
+                            <p class="card-text footerText">Check out this great theme item</p>
                             <a href='http://tadfghh.com'>http://tadfghh.com</a>
-                            <p class="card-text" style="color:white">2 weeks ago</p>
+                            <p class="card-text footerText">2 weeks ago</p>
                         </div>
                     </div>
                 </div>
-                <div class='col-md-3 col-sm-6'>
-                    <div class="card" style="width: 20rem;">
+                <div class='col-md-3 col-xs-6'>
+                    <div class="card cardWidth">
                         <div class="card-block">
                             <h4 class="card-title" style="color: orange"><b>NEWSLETTER</b></h4>
-                            <p class="card-text" style="color:white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <p class="card-text footerText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             <hr/>
                             <p class="card-text" style="color:white;width:100%">Your Email Address</p>
-                            <input class="col-md-12" type="Email">
+                            <input class="col-md-12 col-xs-12" type="Email">
                             <div class="col-md-3 col-xs-3 col-md-offset-10 col-xs-offset-10">
-                            <button class="btn btn-default pull-right" style="background-color: blue;color:white;margin-top: 5px"><b>Sign Up</b></button></div>
+                            <button class="btn btn-default pull-right signUp"><b>Sign Up</b></button></div>
                         </div>
                     </div>
                 </div>
-                <div class='col-md-3 col-sm-6'>
-                    <div class="card" style="width: 20rem;">
+                <div class='col-md-3 col-xs-6'>
+                    <div class="card cardWidth">
                         <div class="card-block">
                             <h4 class="card-title" style="color: orange"><b>RECENT PROJECTS</b></h4>
                             <div class='row'>
-                                <div class='col-md-4 col-sm-4'>
+                                <div class='col-md-3 col-sm-4'>
                                     <img src='images/usr1.png' height="90px" width="70px">
                                 </div>
-                                <div class='col-md-8 col-sm-8'>
-                                    <p style="color:white">Sketchy Business Card</p>
+                                <div class='col-md-7 col-md-offset-2 col-sm-8'>
+                                    <p class="footerText">Sketchy Business Card</p>
                                     <a href='http://tadfghh.com'>http://tadfghh.com</a>
-                                    <p class="card-text" style="color:white">2 weeks ago</p>
+                                    <p class="card-text footerText">2 weeks ago</p>
                                 </div>
                             </div>
                             <hr/>
                             <div class='row'>
-                                <div class='col-md-4 col-sm-4'>
+                                <div class='col-md-3 col-sm-4'>
                                     <img src='images/usr2.png' height="90px" width="70px">
                                 </div>
-                                <div class='col-md-8 col-sm-8'>
+                                <div class='col-md-7 col-md-offset-2 col-sm-8'>
                                     <p style="color:white">Message Boards in Nature</p>
                                     <a href='http://tadfghh.com'>http://tadfghh.com</a>
-                                    <p class="card-text" style="color:white">2 weeks ago</p>
+                                    <p class="card-text footerText">2 weeks ago</p>
                                 </div>
                             </div>
                             <hr/>
                         </div>
                     </div>
                 </div>
-                <div class='col-md-3 col-sm-3'>
-                    <div class="card" style="width: 20rem;">
+                <div class='col-md-3 col-xs-6'>
+                    <div class="card cardWidth">
                         <div class="card-block">
                             <h4 class="card-title" style="color: orange"><b>CONTACT</b></h4>
                             <div class="row">
@@ -302,7 +311,7 @@
                                     <img src="images/phone.png" height="50px" width="50px">
                                 </div>
                                 <div class="col-md-8 col-sm-8">
-                                    <p style="color:white">1-000-000-0000
+                                    <p class="footerText">1-000-000-0000
                                         <br>1-000-000-0000</p>
                                 </div>
                             </div>
@@ -312,7 +321,7 @@
                                     <img src="images/msg.png" height="50px" width="50px">
                                 </div>
                                 <div class="col-md-8 col-sm-8">
-                                    <p style="color:white">1-000-000-0000
+                                    <p class="footerText">1-000-000-0000
                                         <br>1-000-000-0000</p>
                                 </div>
                             </div>
@@ -333,7 +342,7 @@
             </div>
         </div>
     </div>
-    </div>
+    
     
 </body>
 

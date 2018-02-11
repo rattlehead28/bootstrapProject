@@ -1,25 +1,23 @@
-.carouselImage{
+/*.carouselImage{
 
 height:300px;
 width: 100%;
 
+}*/
+
+.logo{
+
+	position: relative;
+	bottom: 10px;
 }
 
+.pageFooter{
 
-.services{
-
-	padding: 20px;
-
+	background-color:#696969;
+	margin-top: 40px 
 }
 
-.portfolio{
-
-	background-color: #C0C0C0;
-	padding: 20px;
-}
-
-
-
+/* Services */
 
 
 .serviceLabel{
@@ -33,8 +31,79 @@ width: 100%;
 	
 }
 
-.logo{
 
-	position: relative;
-	bottom: 10px;
+.services{
+
+	padding: 20px;
+
+}
+
+.cardWidth{
+
+	width:15rem;
+}
+
+/* Portfolio */
+
+
+.portfolio{
+
+	background-color: #C0C0C0;
+	padding: 20px;
+}
+
+
+.headingColor{
+
+	color:orange;
+}
+
+/* What we offer */
+
+.offerHeading{
+
+	color:blue;
+}
+
+/* Testimonials */
+
+.testimonialQuote{
+
+	text-align: center;
+	color:#696969;
+	font-size: 20px
+}
+
+.companyPosition{
+
+	margin-top: 50px;
+	color:orange;
+	text-align: center;
+    font-size: 15px
+}
+
+.testimonialImage{
+
+	height: 70px;
+	width: 70px;
+	cursor:pointer;
+}
+
+.defaultImageCeo{
+
+	background-color: orange;
+}
+
+/* Footer */
+
+.footerText{
+
+	color:white;
+}
+
+.signUp{
+
+	background-color: blue;
+	color:white;
+	margin-top: 5px
 }
